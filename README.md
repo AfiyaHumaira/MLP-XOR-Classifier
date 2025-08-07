@@ -33,7 +33,7 @@ activation = 'sigmoid'     # Options: 'sigmoid' or 'relu'
 learning_rate = 0.1        # Options: 0.01, 0.1, 0.5
 epochs = 5000              # Options: 500, 1000, 5000
 ```
-##🔍 How It Works
+## 🔍 How It Works
 The model is trained on the XOR dataset:
 ```python
 X = [[0, 0],
@@ -49,11 +49,9 @@ y = [[0],
 
 🧠 MLP Theory
 🔹 Architecture
-Input Layer: 2 neurons
-
-Hidden Layer: 2 neurons (Sigmoid or ReLU)
-
-Output Layer: 1 neuron (Sigmoid)
+    - Input Layer: 2 neurons
+    - Hidden Layer: 2 neurons (Sigmoid or ReLU)
+    - Output Layer: 1 neuron (Sigmoid)
 
 🔹 Forward Propagation
 ```python
