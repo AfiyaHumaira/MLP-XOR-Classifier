@@ -82,3 +82,24 @@ b2 += learning_rate * db2
 W1 += learning_rate * dW1
 b1 += learning_rate * db1
   ```  
+## 📊 Evaluation Metrics (Implemented from Scratch)
+```python
+ Accuracy = (TP + TN) / Total
+ Precision = TP / (TP + FP)
+ Recall = TP / (TP + FN)
+ F1 Score = 2 * (Precision * Recall) / (Precision + Recall)
+```
+- 🔸 ROC Curve
+  A ROC (Receiver Operating Characteristic) curve is plotted using threshold values between 0 and 1 to evaluate the classifier's performance.
+
+## ✅ Sample Output
+```python
+Expected:   [0 1 1 0]
+Predicted:  [0 1 1 0]
+
+Evaluation Metrics:
+Accuracy:  1.00
+Precision: 1.00
+Recall:    1.00
+F1 Score:  1.00
+```
