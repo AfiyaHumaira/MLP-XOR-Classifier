@@ -47,7 +47,7 @@ y = [[0],
      [0]]
 ```
 
-🧠 MLP Theory
+## 🧠 MLP Theory
 🔹 Architecture
     - Input Layer: 2 neurons
     - Hidden Layer: 2 neurons (Sigmoid or ReLU)
