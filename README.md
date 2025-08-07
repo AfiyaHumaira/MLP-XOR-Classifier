@@ -104,8 +104,8 @@ Recall:    1.00
 F1 Score:  1.00
 ```
 ## 📁 Files
-- ```MLP_XOR_Classifier.ipynb``` – Colab/Jupyter Notebook
-- ```README.md``` – Project description and theory
+- ```[MLP_XOR_Classifier.ipynb](https://github.com/AfiyaHumaira/MLP-XOR-Classifier/blob/main/MLP_XOR_Classifier.ipynb)``` – Colab/Jupyter Notebook
+- ```[README.md](https://github.com/AfiyaHumaira/MLP-XOR-Classifier/blob/main/README.md)``` – Project description and theory
 
 ## 🚀 How to Run
 You can run this notebook using:
