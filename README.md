@@ -103,3 +103,11 @@ Precision: 1.00
 Recall:    1.00
 F1 Score:  1.00
 ```
+## 📁 Files
+- ```MLP_XOR_Classifier.ipynb``` – Colab/Jupyter Notebook
+- ```README.md``` – Project description and theory
+
+## 🚀 How to Run
+You can run this notebook using:
+- [Google Colab](https://colab.research.google.com/)
+- Jupyter Notebook (locally)
