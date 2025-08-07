@@ -48,12 +48,12 @@ y = [[0],
 ```
 
 ## 🧠 MLP Theory
-🔹 Architecture
+- Architecture
     - Input Layer: 2 neurons
     - Hidden Layer: 2 neurons (Sigmoid or ReLU)
     - Output Layer: 1 neuron (Sigmoid)
 
-🔹 Forward Propagation
+- Forward Propagation
 ```python
 Z1 = X · W1 + b1
 A1 = activation(Z1)        # ReLU or Sigmoid
