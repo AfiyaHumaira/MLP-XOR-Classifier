@@ -28,7 +28,7 @@ This project implements a **Multilayer Perceptron (MLP)** from scratch using **N
 
 These parameters can be changed in the code:
 
-```python``
+```python
 activation = 'sigmoid'     # Options: 'sigmoid' or 'relu'
 learning_rate = 0.1        # Options: 0.01, 0.1, 0.5
 epochs = 5000              # Options: 500, 1000, 5000
