@@ -60,3 +60,25 @@ A1 = activation(Z1)        # ReLU or Sigmoid
 Z2 = A1 · W2 + b2
 A2 = sigmoid(Z2)           # Final prediction
 ```
+- Loss Function (Mean Squared Error)
+ ```python
+Loss = (1/n) * Σ (y_true - y_pred)^2
+ ```
+Where `n` is the number of samples. 
+- Backpropagation
+```python
+dA2 = (y - A2) * sigmoid_derivative(A2)
+dW2 = A1.T · dA2
+db2 = sum of dA2 over all samples
+
+dA1 = dA2 · W2.T * activation_derivative(A1)
+dW1 = X.T · dA1
+db1 = sum of dA1 over all samples
+```
+  - Weights and biases update:
+ ```python
+W2 += learning_rate * dW2
+b2 += learning_rate * db2
+W1 += learning_rate * dW1
+b1 += learning_rate * db1
+  ```  
